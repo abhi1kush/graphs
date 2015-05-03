@@ -7,6 +7,6 @@ set ytic auto
 set grid
 
 set terminal png
-set output "util.png" ; 
+set output "3rdmay_util.png" ; 
 plot "gutil_client.txt" using 1:2 title "Utilization (%)" with linespoints lt rgb "blue";
 set term x11
